@@ -1,0 +1,202 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #455b55;
+    /* Light blue */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: -5px;
+    color: whitesmoke;
+}
+
+p {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    display: inline;
+
+}
+
+.add {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #000000;
+    /* Black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease-in-out;
+    cursor: pointer;
+    border: 4px solid #008000;
+    /* Green */
+    margin-bottom: 20px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.8);
+}
+
+.add:hover {
+    background-color: #90ee90;
+    /* Light green */
+    border-color: #006400;
+    /* Dark green */
+    color: #006400;
+    /* Dark green */
+}
+
+.minus {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #000000;
+    /* Black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease-in-out;
+    cursor: pointer;
+    border: 3px solid #006400;
+    /* Dark green */
+    margin-top: -70px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.minus:hover {
+    background-color: lightgreen;
+    /* Light grey */
+    border-color: green;
+    /* Dark red */
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    background-color: #006400;
+    /* Dark green */
+    color: #ffffff;
+    /* White */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 10px;
+
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+button:hover {
+    background-color: #90ee90;
+    /* Light green */
+    color: #006400;
+    /* Dark green */
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#add_n {
+    font-size: 120px;
+    color: #006400;
+    font-weight: 400px;
+    /* Dark green */
+}
+
+.sym {
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+}
+.pray {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.pray img {
+    margin-left: 10px;
+    height: 30px;
+}
+@media (max-width: 600px) {
+    .add {
+        width: 250px;
+        height: 250px;
+    }
+
+    .minus {
+        width: 80px;
+        height: 80px;
+        margin-top: -40px;
+    }
+
+    #add_n {
+        font-size: 100px;
+    }
+
+    .sym {
+        font-size: 40px;
+    }
+
+    button {
+        width: 120px;
+        font-size: 18px;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    #selectzikr {
+        width: 160px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 400px) {
+    .add {
+        width: 200px;
+        height: 200px;
+    }
+
+    .minus {
+        width: 60px;
+        height: 60px;
+        margin-top: -30px;
+    }
+
+    #add_n {
+        font-size: 80px;
+    }
+
+    .sym {
+        font-size: 30px;
+    }
+
+    button {
+        width: 100px;
+        font-size: 16px;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    #selectzikr {
+        width: 140px;
+        font-size: 16px;
+    }
+}
+
+
+
